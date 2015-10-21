@@ -1,0 +1,10 @@
+{
+  "*.js": {
+    "alternate": "{}.css",
+    "type": "css"
+  },
+  "*.css": {
+    "alternate": "{}.js",
+    "type": "component"
+  }
+}

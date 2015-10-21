@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "consistent-return": 0,
+    "id-length": [2, {"exceptions": ["_"]}],
+    "new-cap": [2, {
+      "capIsNewExceptions": ["CSSModules"]
+    }]
+  }
+}

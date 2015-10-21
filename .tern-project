@@ -1,0 +1,17 @@
+{
+  "libs": [
+    "browser",
+    "underscore"
+  ],
+  "dontLoad": [
+    "node_modules",
+    "dist",
+    "build"
+  ],
+  "loadEagerly": [
+    "src/*.js",
+    "src/**/*.js",
+    "src/**/**/*.js",
+    "node_modules/react/**/*.js"
+  ]
+}
